@@ -82,9 +82,9 @@ export const projects = [
       image: img('garda-capital-partners', 'chart.jpg'),
       alt: 'Kalshi probability versus the Fed Funds swap-implied probability of a July hike',
       ratio: '3/2',
-      title: 'The Internship',
+      title: '2026 Summer Internship',
       paragraphs: [
-        'In the summer of 2026 I was a Trading Analyst Intern on the US Rates desk at Garda Capital Partners in New York. The desk trades Treasuries, interest rate swaps, and SOFR and Fed Funds futures, and my job was to build tools that helped the traders see the market faster and to bring them ideas of my own.',
+        'In the summer of 2026 I was a Trading Analyst Intern on the US Rates desk at Garda Capital Partners in New York. The desk trades Treasuries, interest rate swaps, and SOFR and Fed Funds futures, and throughout the summer, I learned from the traders on the desk, built tools for them, and learned about the fixed income market.',
         'My main project was an automated pipeline that processes more than 120,000 earnings call transcripts and audio files to pull out what executives are saying about pricing, inflation, labor, tariffs, and demand. It feeds a searchable dashboard and a weekly report email the desk uses to track how corporate commentary is shifting ahead of the official data.',
         'Ahead of the July FOMC meeting I noticed that Fed Funds futures and prediction markets like Kalshi were pricing very different odds of a hike. After normalizing both into implied probabilities, the gap was roughly 15 percentage points, which is the chart shown here. I modeled the trade’s P&L across hike, hold, and cut scenarios and presented the event-driven arbitrage to the desk.',
         'The summer taught me how much of trading is infrastructure: the data, the tooling, and the discipline to try to prove yourself wrong before you put on a position.',
@@ -107,7 +107,7 @@ export const projects = [
       paragraphs: [
         'PathAware is a navigation assistant for blind and low-vision users that my team of three built at the Hesburgh Hackathon in April 2026. A phone strapped to your chest becomes a forward-facing camera, and the app tells you what is in your path before you reach it.',
         'The backend runs a live perception loop: a YOLO object detector finds people, doors, furniture, and vehicles in the video feed, and a hazard engine scores anything that overlaps the walking zone ahead, tracking objects frame to frame and describing them in plain language, from “a few steps ahead” to “immediately in front of you.” You can also ask the scene a question out loud. Whisper transcribes it, a vision model answers from the current frame, and the reply is spoken back.',
-        'To keep it fast enough to be useful, the phone streams video over RTMP to a GPU server on AWS that handles decoding, inference, and hazard scoring, and serves a React dashboard with the annotated feed, alerts, and a running transcript. We tested it the only way you can at a hackathon: walking the halls of Hesburgh with a phone taped to a t-shirt.',
+        'To keep it fast enough to be useful, the phone streams video over RTMP to a GPU server on AWS that handles decoding, inference, and hazard scoring, and serves a React dashboard with the annotated feed, alerts, and a running transcript. We tested it the only way you can at a 24hr hackathon: walking through campus with a phone taped to a t-shirt.',
       ],
     },
   },
